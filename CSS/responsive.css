@@ -1,0 +1,29 @@
+
+/* responsive  for mobile device  */
+@media only screen and (max-width:688px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-container{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin-top: 50px;
+         margin-right: 0px;
+         margin-left: 0px;
+     }
+     .nav-text{
+         text-align: center;
+     }
+     .nav-link{
+         text-align: center;
+     }
+     .nav-link a{
+         display: block;
+     }
+     .nav-link a:last-child{
+    margin-right: 35px;
+}
+    
+}
