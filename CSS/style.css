@@ -6,7 +6,42 @@
 body {
     background-color:#e0e0e04f;
 }
+/* animation */
 
+
+@keyframes header-animation {
+    0%{
+           height: 440px;
+           width: 421px;
+    }
+    25%{
+        height: 440px;
+        width: 380px;
+    }
+    50%{
+        height: 440px;
+        width: 421px;
+    }
+    75%{
+        height: 440px;
+        width: 380px;
+    }
+    100%{
+        height: 440px;
+        width: 421px;
+    }
+}
+
+header:hover .img-box{
+    animation-name: header-animation;
+    animation-duration:3.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+
+/* animation end */
 
 /* Navigation Start*/
 .nav-container{
@@ -25,6 +60,10 @@ body {
     font-weight: 600;
     text-decoration: none;
     margin-right:35px;
+}
+.nav-link a:hover{
+    color: #E02C6D;
+    transition: .6s;
 }
 .nav-link a:last-child{
     margin-right: 0;
@@ -83,7 +122,6 @@ body {
 .btn:hover i  {
     color: #E02C6D;
 }
-
 /* Header section end */
 
 /* main features section start */
