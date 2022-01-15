@@ -5,6 +5,8 @@
         margin: 0;
         padding: 0;
     }
+
+    /* Responsive mobile Navigation  start */
     .nav-container{
          display: flex;
          flex-direction: column;
@@ -18,12 +20,34 @@
      }
      .nav-link{
          text-align: center;
+         margin-top: 25px;
      }
      .nav-link a{
          display: block;
+         margin: 10px;
      }
      .nav-link a:last-child{
-    margin-right: 35px;
+    margin-right: 15px;
 }
+    /* Responsive mobile Navigation  end */
+}
+
+/* responsive  for Tablet device  */
+@media only screen and (min-width:689px)and (max-width:992px) {
     
+    /* Responsive Tablet Navigation  start  */
+    .nav-container{
+        display: flex;   
+        flex-direction: column; 
+    }
+    .nav-text{
+        text-align: center;
+    }
+    .nav-link{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+/* Responsive Tablet Navigation  end  */
+
 }
