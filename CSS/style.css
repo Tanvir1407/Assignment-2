@@ -3,6 +3,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+body {
+    background-color:#e0e0e04f;
+}
 
 
 /* Navigation Start*/
@@ -99,3 +102,50 @@
 
 
 /* main features section end */
+
+/* main product info section start */
+.product-section{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.product-section h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.product {
+    background-color: white;
+    padding: 12px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 12px rgba(216, 215, 215, 0.219)
+}
+.product-info h4{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.product-info .pricing{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);;
+}
+.rating .fas{
+    color: rgb(255, 157, 0);
+}
+.product-info p{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+}
+
+/* main product info section end */
