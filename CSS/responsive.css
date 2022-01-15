@@ -49,8 +49,10 @@
     .header-text p{
         text-align: center;
     }
-
-
+    .header-text .btn-div{
+        width: 200px;
+        margin: 0 auto;
+    }
     .header-picture{
         order: 1;
         width: 100%;
