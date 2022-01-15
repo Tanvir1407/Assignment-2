@@ -97,6 +97,19 @@
     }
 
         /* Responsive mobile product onfo section  end */
+       
+       
+        /* newsletter subscribe start */
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+        margin-top: 70px;
+    }
+        
+        /* newsletter subscribe start */
+
+
 
 }
 

@@ -75,6 +75,7 @@ body {
     background-color: transparent;
     border: 2px solid #E02C6D;
     padding: 8px 23px;
+    transition: .7s;
 }
 .btn:hover a  {
     color: #E02C6D;
@@ -161,6 +162,71 @@ body {
 }
 
 /* main product info section end */
+
+/* newsletter start */
+  .newsletter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      margin-top: 70px;
+
+  }
+  .newsletter .img-box{
+      margin-left:25px;
+      margin-right: 25px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  } 
+  .img-box img{
+      border-radius: 10px;
+  }
+  .newsletter-text {
+      margin: 10px 30px;
+  }
+  .newsletter-text h5{
+      text-align: center;
+      margin-bottom: 0px;
+      color: #787885;
+  }
+  .newsletter-text h3{
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 0px;
+      margin-bottom: 10px;
+  }
+  .newsletter p{
+      font-size: 14px;
+      font-weight: 700;
+      color: #787885;
+  }
+  .newsletter-text .mail{
+      padding: 7px 25px ;
+      border: 2px solid #E02C6D;
+      
+  }
+  .newsletter-text .mail:focus{
+      border: 2px solid #E02C6D;
+      outline: none;
+  }
+  .newsletter-text .submit-btn{
+      margin-left: 10px;
+      padding: 7px 15px;
+      color: white;
+      background-color: #E02C6D;
+      border: 2px solid #E02C6D;
+  }
+  .newsletter-text .submit-btn:hover{
+      color: #E02C6D;
+      background-color: white;
+      border: 2px solid #E02C6D;
+      transition: .5s;
+  }
+  
+  
+/* newsletter end */
+
 
 /* footer section start */
 footer{
